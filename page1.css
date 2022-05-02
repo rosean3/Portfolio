@@ -17,6 +17,8 @@ body {
 }
 
 .container {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     /* background-color: bisque; */
@@ -24,8 +26,8 @@ body {
 }
 
 .manga {
-    width: 70vw;
-    height: 90vh;
+    width: 900px;
+    height: 550px;
     background-color: white;
     display: flex;
     flex-direction: row;
