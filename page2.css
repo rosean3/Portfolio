@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    font-family: 'Manga Temple', sans-serif;
+}
+
+h1 {
+    font-size: 1.3rem;
+    margin-top: 4%;
+    text-align: center;
+}
+p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/* #autodidata {
+    text-align: justify;
+} */
+
+li {
+    font-size: 0.9rem;
+    margin-right: 3%;
+    margin-left: 7%;
+}
+
+li:nth-of-type(4) {
+    margin-bottom: 4%;
+}
+li:nth-of-type(1) {
+    margin-top: 2%;
+}
+
+body {
+    /* background-color: #B6B6B6; */
+    background: rgb(87,81,81);
+    background: linear-gradient(90deg, rgba(87,81,81,0.865983893557423) 0%, rgba(161,155,155,1) 50%, rgba(182,182,182,1) 100%);
+    /* background: rgb(215,2,207); */
+    /* background: linear-gradient(90deg, rgba(215,2,207,1) 0%, rgba(115,79,150,1) 29%, rgba(96,0,168,1) 100%); */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* background-color: bisque; */
+    align-items: center;
+}
+
+.manga {
+    width: 900px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+section {
+    background-color: white;
+    height: 85%;
+    /* height: 500px; */
+    /* border: 5px solid #003049; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section:nth-of-type(1) {
+    width: 40%;
+}
+
+section:nth-of-type(2) {
+    width: 40%;
+}
+
+#bloco1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    width: 100%;
+    height: 48%;
+}
+
+.quadro {
+    border: 1.5px solid black;
+    transition: 0.5s;
+}
+
+
+#quadro1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-image: url(./imagens/background.jpg);
+}
+
+#quadro2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 47.5%;
+    border-bottom: none;
+    background-image: url("./imagens/cin1.jpg");
+    background-size: cover;
+}
+
+#quadro3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    background-image: url("./imagens/hackatona2.jpg");
+    background-size: cover;
+}
+
+#quadro4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 22.5%;
+    border-top: none;
+    background-image: url("./imagens/cin-2.jpg");
+    background-size: cover;
+}
+
+br {
+    height: 5%;
+}
+
+a img{
+    width: 80px;
+    /* transition: 0.5s; */
+}
+
+#arr_left {
+    border-right: 50px none #b6b6b6;
+}
+
+#arr_right {
+    border-left: 50px none #B6B6B6;
+}
+
+
+a img:hover {
+    cursor: pointer;
+    width: 85px;
+}

@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    font-family: 'Manga Temple', sans-serif;
+}
+
+body {
+    /* background-color: #B6B6B6; */
+    background: rgb(87,81,81);
+    background: linear-gradient(90deg, rgba(87,81,81,0.865983893557423) 0%, rgba(161,155,155,1) 50%, rgba(182,182,182,1) 100%);
+    /* background: rgb(215,2,112); */
+/* background: linear-gradient(90deg, rgba(215,2,112,1) 0%, rgba(215,2,135,0.9472163865546218) 29%, rgba(215,2,207,0.8939950980392157) 100%); */
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: bisque; */
+    align-items: center;
+}
+
+.manga {
+    width: 900px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+section {
+    background-color: white;
+    width: 40%;
+    height: 85%;
+    /* height: 500px; */
+    /* border: 5px solid #003049; */
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(1) {
+    background-image: url(./imagens/desenho2.png);
+    background-size: cover;
+    /* height: 500px; */
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+section:nth-of-type(2) {
+    justify-content: space-between;
+}
+
+
+#quadro1 {
+    display: flex;
+    flex-direction: row;
+    width: 46.5%;
+    height: 40%;
+    align-self: flex-start;
+    justify-self: flex-start;
+    border-top: none;
+    border-right: none;
+    background-image: url(./imagens/desenho9.2.png);
+    background-size: cover;
+}
+
+#desenhos {
+    font-size: 0.75rem;
+    margin-top: 76%;
+    width: 40%;
+    margin-left: 25%;
+}
+
+#quadro4 {
+    width: 100%;
+    height: 32%;
+    background-image: url("./imagens/desenho10.png");
+    background-size: cover;
+}
+
+#shumi {
+    margin-top: 31%;
+    margin-left: 50%;
+    font-size: 1.3rem;
+}
+
+#quadro5 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    height: 64%;
+    background-image: url("./imagens/background.jpg");
+}
+
+div ul {
+    margin-left: 14%;
+    margin-top: 3%;
+}
+
+.h_list {
+    font-size: 1.3rem;
+}
+
+.quadro {
+    border: 1.5px solid black;
+    transition: 0.5s;
+}
+
+br {
+    height: 5%;
+}
+
+#arr_right {
+    width: 80px;
+}
+
+
+#arr_right:hover {
+    cursor: pointer;
+    width: 85px;
+}
+
+#links {
+    width: 10%;
+    height: 450px;
+    background-color: rgba(161,155,155,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: 1.5px dashed black;
+    margin: 20px;
+    padding: 2%;
+}
+
+#insta {
+    width: 50px;
+    margin-left: 180%;
+    margin-top: 100%;
+}
+
+#insta:hover {
+    width: 54px;
+    margin-left: 160%;
+    margin-top: 80%;
+}
+
+#closing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.links {
+    width: 100px;
+}
+
+#cv {
+    width: 90px;
+}
+
+P:nth-of-type(1) {
+    font-family: 'Manga Temple', sans-serif;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.links:hover {
+    width: 105px;
+}
+
+#cv:hover {
+    width: 95px;
+}
